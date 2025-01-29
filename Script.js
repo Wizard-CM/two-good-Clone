@@ -52,19 +52,21 @@ gsap.to('#nav-part1 svg',{
 
   }
 })
-gsap.to('#nav-part2 #links',{
-  transform:`translatey(-100%)`,
-  scrollTrigger:{
-    trigger:'#page1',
-    scroller:'#main',
-    opacity:true,
-    start:'top 0',
-    end:'top -5%',
-    scrub:true,
 
-  }
-})
+// gsap.to('#nav-part2 #links',{
+//   transform:`translatey(-100%)`,
+//   scrollTrigger:{
+//     trigger:'#page1',
+//     scroller:'#main',
+//     opacity:true,
+//     start:'top 0',
+//     end:'top -5%',
+//     scrub:true,
+
+//   }
+// })
 }
+
 NavBarAnimation()
 
 function videoAnimation() {
